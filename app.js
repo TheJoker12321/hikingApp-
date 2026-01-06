@@ -9,8 +9,10 @@ app.use('/', route)
 
 
 
-app.listen(3000, () => {
+// app.listen(3000, () => {
 
-    console.log('start running server on port: http://localhost:3000');
+//     console.log('start running server on port: http://localhost:3000');
     
-})
+// })
+
+export { app }

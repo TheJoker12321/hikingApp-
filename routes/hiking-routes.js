@@ -10,9 +10,9 @@ route.post('/check-weather', (req, res) => {
     const { temperature, windSpeed } = req.body
     const result = isSafeToHike(temperature, windSpeed)
 
-    return res.status(201).json({
+    return res.status(201).json(
         result
-    })
+    )
 
 })
 

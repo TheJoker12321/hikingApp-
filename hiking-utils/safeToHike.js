@@ -1,6 +1,6 @@
 export function isSafeToHike(temperature, windSpeed) {
 
-    if (temperature <= 35 && temperature >= 0 && windSpeed <= 50) {
+    if (temperature <= 35 && temperature >= 0 && windSpeed <= 60) {
 
         return {
 
